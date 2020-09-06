@@ -1,0 +1,47 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #2C3455
+}
+
+.clip-up {
+    background-color: var(--main-color);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+}
+
+.clip-down {
+    clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+    background-color: var(--main-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-color-bg {
+    background-color: var(--main-color);
+}
+
+.main-color-txt {
+    color: var(--main-color);
+}
+
+.main-color-border {
+    border-color: var(--main-color);
+}
+
+/* 
+.section-panel {
+    height: calc(100vh - 100px);
+} */
