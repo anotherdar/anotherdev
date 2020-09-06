@@ -35,7 +35,6 @@ export const Cover: FC = () => {
                 <ListItem title="home" />
                 <ListItem title="work" />
                 <ListItem title="about me" id="about" />
-                <ListItem title="skills" />
                 <ListItem title="contact me" id="contact" />
               </ol>
             </div>
