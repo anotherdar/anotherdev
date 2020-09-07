@@ -45,3 +45,7 @@ html {
 .section-panel {
     height: calc(100vh - 50px);
 }
+
+body {
+    background: #fff;
+}

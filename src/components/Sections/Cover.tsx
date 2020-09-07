@@ -10,12 +10,15 @@ export const Cover: FC = () => {
   const [screenWidth, setScreenWidth] = useState(null)
 
   useEffect(() => {
-    setScreenWidth(window.innerWidth)
+    if (typeof window !== `undefined`) {
+      setScreenWidth(window.innerWidth)
+    }
   }, [])
-
-  window.addEventListener("resize", () => {
-    setScreenWidth(window.innerWidth)
-  })
+  if (typeof window !== `undefined`) {
+    window.addEventListener("resize", () => {
+      setScreenWidth(window.innerWidth)
+    })
+  }
 
   const toHandleMenu = (): void => alert("click")
 
