@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/anotherdev",
   siteMetadata: {
     title: `Another Dev`,
-    author: `Daren a. Rosario`,
+    author: `Daren A. Rosario`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

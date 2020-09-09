@@ -63,12 +63,8 @@ export const Skills: FC = () => {
       id="skills"
       className=" relative flex flex-col justify-center items-center p-4 w-full"
     >
-      <div
-        className="h-56 xl:h-64 w-full clip-up cover-color absolute top-0"
-        style={{ zIndex: -1 }}
-      ></div>
-      <div className="w-11/12">
-        <Title title="Skills" />
+      <div className="w-11/12 text-center">
+        <h1 className="text-2xl main-color-txt font-medium sm:mt-5">Skills</h1>
         <ol className=" pt-5 flex flex-col md:flex-wrap md:flex-row md:justify-center md:items-center">
           <SkillsItem skills={skills} />
         </ol>

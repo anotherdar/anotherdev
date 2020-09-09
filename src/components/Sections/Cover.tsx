@@ -38,7 +38,7 @@ export const Cover: FC = () => {
                 <ListItem title="home" />
                 <ListItem title="work" />
                 <ListItem title="about me" id="about" />
-                <ListItem title="contact me" id="contact" />
+                {/* <ListItem title="contact me" id="contact" /> */}
               </ol>
             </div>
           )}
@@ -46,8 +46,11 @@ export const Cover: FC = () => {
       </nav>
 
       <div className="cover-message w-full flex flex-col items-center">
+        <h1 className="cover-message-text-color font-semibold text-xl xl:text-5xl p-0 m-0">
+          Hey!
+        </h1>
         <h1 className="cover-message-text-color text-4xl xl:text-5xl">
-          <span className="font-light">Hey!, I'm</span>{" "}
+          <span className="font-light">I'm</span>{" "}
           <span className="font-medium">Daren</span>
         </h1>
         <h2 className="cover-message-text-color text-2xl xl:text-3xl font-medium">

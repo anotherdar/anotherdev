@@ -6,7 +6,7 @@ export const Contact: FC = () => {
       id="contact"
       className="  flex flex-col justify-center items-center"
     >
-      <div className="h-56 xl:h-64 w-full clip-up cover-color "></div>
+      <div className="h-56 w-full clip-up cover-color "></div>
       <div className="bg-white h-64 w-full"></div>
     </section>
   )

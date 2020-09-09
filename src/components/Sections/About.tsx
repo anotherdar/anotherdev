@@ -12,12 +12,12 @@ export const About: FC = () => {
         className="h-56 xl:h-64 w-full clip-up cover-color p-4 absolute top-0"
         style={{ zIndex: -1 }}
       />
-      <div className="section-panel w-11/12 section-panel sm:flex sm:flex-col sm:items-center">
+      <div className=" w-11/12  sm:flex sm:flex-col sm:items-center">
         <div className="flex flex-col items-center justify-center md:flex-row md:w-1/2">
           <Photo />
         </div>
 
-        <div className="container pl-0 pr-0 pb-10 pt-10 md:w-1/2">
+        <div className="container pl-0 pr-0  pt-10 md:w-1/2">
           <div className="text-center">
             <h1 className="text-2xl main-color-txt font-medium sm:mt-5">
               Daren A. Rosario
