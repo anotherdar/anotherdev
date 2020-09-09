@@ -36,7 +36,7 @@ export const Footer: FC = () => {
     <footer className="p-10  w-full clip-down flex flex-col  items-center">
       <div className="p-5 text-center">
         <h1 className="text-white capitalize p-5 pl-0 font-medium">Contact</h1>
-        <ol className="flex">
+        <ol className="flex flex-col md:flex-row">
           <ContactItem data={data} />
         </ol>
       </div>

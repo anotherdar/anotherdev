@@ -9,7 +9,7 @@ export const ContactItem: FC<ContactItemProps> = ({ data }) => {
     <Fragment>
       {data.map(x => {
         return (
-          <li className="p-2 flex items-center">
+          <li className="p-2 flex items-center cursor-pointer">
             {x.icon === "icon-github" ? (
               <i className={x.icon}></i>
             ) : (
