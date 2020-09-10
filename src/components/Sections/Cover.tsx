@@ -5,44 +5,14 @@ import "./Cover.scss"
 //@ts-ignore
 import ScrollDown from "../../images/scroll_down _small.svg"
 import { ListItem } from "../ListItem"
-import { HamburgerMenu } from "../HamburgerMenu"
 export const Cover: FC = () => {
-  const [screenWidth, setScreenWidth] = useState(null)
-
-  useEffect(() => {
-    if (typeof window !== `undefined`) {
-      setScreenWidth(window.innerWidth)
-    }
-  }, [])
-  if (typeof window !== `undefined`) {
-    window.addEventListener("resize", () => {
-      setScreenWidth(window.innerWidth)
-    })
-  }
-
-  const toHandleMenu = (): void => alert("click")
-
   return (
     <header id="home" className="h-screen w-full flex flex-col justify-between">
       <nav className="h-64 w-full">
-        <div className="flex justify-between items-center p-2">
-          <div className="cover-logo"></div>
-
-          {screenWidth != null && screenWidth <= 768 && (
-            <HamburgerMenu action={toHandleMenu} />
-          )}
-
-          {screenWidth != null && screenWidth > 786 && (
-            <div className="cover-menu">
-              <ol className="list-none flex">
-                <ListItem title="home" />
-                <ListItem title="work" />
-                <ListItem title="about me" id="about" />
-                {/* <ListItem title="contact me" id="contact" /> */}
-              </ol>
-            </div>
-          )}
-        </div>
+        <ol className="list-none flex w-full justify-center xl:justify-end p-2">
+          <ListItem title="work" />
+          <ListItem title="about me" id="about" />
+        </ol>
       </nav>
 
       <div className="cover-message w-full flex flex-col items-center">

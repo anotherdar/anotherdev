@@ -5,7 +5,6 @@ module.exports = {
     author: `Daren A. Rosario`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-sass`,
     {

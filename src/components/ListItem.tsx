@@ -6,7 +6,7 @@ interface ListItemProps {
 }
 export const ListItem: FC<ListItemProps> = ({ title, id }) => {
   return (
-    <li className="main-color-txt capitalize p-2 font-normal cursor-pointer cover-hover-transition">
+    <li className="main-color-txt uppercase p-2 font-semibold text-sm cursor-pointer cover-hover-transition">
       <a href={`#${id ? id : title}`}>{title}</a>
     </li>
   )

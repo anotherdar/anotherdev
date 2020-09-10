@@ -49,3 +49,9 @@ html {
 body {
     background: #fff;
 }
+
+.onscroll {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

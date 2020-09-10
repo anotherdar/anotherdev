@@ -10,7 +10,7 @@ export const Title: FC<TitlePros> = ({ title, isBlue, hideUnderLine }) => {
   return (
     <div className="title">
       <h1
-        className="text-white capitalize font-normal cursor-pointer xl:text-xl"
+        className="main-color-txt capitalize font-normal cursor-pointer xl:text-xl"
         style={{ color: `${isBlue && "#2C3455"}` }}
       >
         {title}
