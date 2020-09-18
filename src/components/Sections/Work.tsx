@@ -3,13 +3,11 @@ import React, { FC } from "react"
 import { Title } from "../Title"
 import { Card } from "../Card"
 
-//@ts-ignore
-import personalSite from "../../images/work_images/personal_site.png"
 const cardData = [
   {
     title: "App store",
     content: "A simple web app, to manage your digital store.",
-    img: personalSite,
+    img: "https://i.redd.it/tk46u5nrkxm21.png",
     link: "https://www.google.com",
     tags: ["React", "GraphQL", "MongoDB"],
   },
@@ -18,7 +16,7 @@ const cardData = [
     content: `A simple app to help you to be in shape,
       this apps provides you a list of workouts to do at home without equipment.
      and you can register to keep track of your progress`,
-    img: personalSite,
+    img: "https://i.redd.it/tk46u5nrkxm21.png",
     link: "https://www.google.com",
     tags: ["React", "NodeJs", "MongoDB"],
   },
@@ -26,7 +24,7 @@ const cardData = [
     title: "Persona site",
     content:
       "my personal site made with gatsby, which allows me to create static sites and powerful pwa",
-    img: personalSite,
+    img: "https://i.redd.it/tk46u5nrkxm21.png",
     link: "https://github.com/anotherdar/anotherdev",
     tags: ["React", "Gatsby", "Javascript"],
   },
