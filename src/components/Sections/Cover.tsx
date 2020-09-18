@@ -24,7 +24,7 @@ export const Cover: FC = () => {
           <span className="font-medium">Daren</span>
         </h1>
         <h2 className="cover-message-text-color text-2xl xl:text-3xl font-medium">
-          A web developer
+          and I'm web developer
         </h2>
       </div>
       <div className="h-64 w-full flex items-end justify-center pb-12">
