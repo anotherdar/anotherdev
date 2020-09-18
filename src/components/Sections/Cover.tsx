@@ -29,7 +29,11 @@ export const Cover: FC = () => {
       </div>
       <div className="h-64 w-full flex items-end justify-center pb-12">
         <a href="#work">
-          <img className="h-12 w-12" src={ScrollDown} alt="down" />
+          <img
+            className="h-12 w-12 animate-bounce"
+            src={ScrollDown}
+            alt="down"
+          />
         </a>
       </div>
     </header>

@@ -9,7 +9,7 @@ interface ILoading {
 
 export const Loading: FC<ILoading> = ({ isLoading }) => {
   return (
-    <div>
+    <div className="animate-spin">
       <img src={loadingLogo} alt="" />
     </div>
   )

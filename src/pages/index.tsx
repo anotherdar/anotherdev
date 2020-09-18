@@ -5,7 +5,6 @@ import { Cover } from "../components/Sections/Cover"
 import { Work } from "../components/Sections/Work"
 import { About } from "../components/Sections/About"
 import { Skills } from "../components/Sections/Skills"
-import { Contact } from "../components/Sections/Contact"
 import { Footer } from "../components/Sections/Footer"
 
 import { ButtonUp } from "../components/ButtonUp"
@@ -13,6 +12,7 @@ import { ButtonUp } from "../components/ButtonUp"
 const IndexPage = () => {
   const ref = useRef<HTMLDivElement>(null)
   const [isVisible, setIsVisible] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
   const getScroll = () => (e: React.UIEvent<HTMLDivElement, UIEvent>): void => {
     const currentElement = ref.current
@@ -30,9 +30,28 @@ const IndexPage = () => {
     }
   }
 
+  useEffect(() => {
+    let TIME_VISIBLE = 2000
+    let timeOut: NodeJS.Timeout
+
+    timeOut = setTimeout(() => {
+      setIsLoading(false)
+    }, TIME_VISIBLE)
+
+    return () => clearTimeout(timeOut)
+  }, [])
+
+  if (isLoading) {
+    return (
+      <div className=" h-screen w-full flex justify-center items-center">
+        <Loading />
+      </div>
+    )
+  }
+
   return (
     <div
-      className="container h-screen sm:max-w-full md:max-w-full lg:max-w-full xl:max-w-full onscroll"
+      className="h-screen w-full xl:max-w-full onscroll"
       onScroll={getScroll()}
       ref={ref}
     >

@@ -14,11 +14,13 @@ const cardData = [
     tags: ["React", "GraphQL", "MongoDB"],
   },
   {
-    title: "App store",
-    content: "A simple web app, to manage your digital store.",
+    title: "Lets work",
+    content: `A simple app to help you to be in shape,
+      this apps provides you a list of workouts to do at home without equipment.
+     and you can register to keep track of your progress`,
     img: personalSite,
     link: "https://www.google.com",
-    tags: ["React", "GraphQL", "MongoDB"],
+    tags: ["React", "NodeJs", "MongoDB"],
   },
   {
     title: "Persona site",

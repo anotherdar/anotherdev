@@ -13,7 +13,7 @@ export const Card: FC<CardProps> = props => {
 
   return (
     <div
-      className="card-body main-color-border p-2 pb-5 bg-white md:w-1/2 xl:w-1/3"
+      className="card-body main-color-border p-2 pb-20 bg-white md:w-1/2 xl:w-1/3 shadow-xl"
       key={img + title}
     >
       <img
@@ -31,9 +31,11 @@ export const Card: FC<CardProps> = props => {
               return <li className="mr-2 text-gray-600">#{tag}</li>
             })}
           </ol>
-          <p className="card-content-body text-gray-700">{content}</p>
+          <p className="card-content-body text-gray-700 p-4 pr-0 pl-0">
+            {content}
+          </p>
         </div>
-        <div className="w-full flex justify-end pt-5">
+        <div className="w-full flex justify-end mt-20">
           <a
             href={link}
             target="_blank"

@@ -28,16 +28,18 @@ export const About: FC = () => {
           </div>
           <div className="text-center md:text-left">
             <p className="text-lg font-normal leading-tight text-gray-800 mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-              numquam sequi nihil deserunt quod cum adipisci. Nobis ea hic
-              reprehenderit, rerum ipsa, omnis odio ad, exercitationem vitae
-              optio qui a!
+              Im a passionate web developer, how loves code and learn new
+              things. Im able to work as a frontend and backend. Im always
+              seeking to improve myself trying to keep up with the new
+              technologies out there.
             </p>
-            <p className="text-lg font-normal leading-tight text-gray-800">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-              numquam sequi nihil deserunt quod cum adipisci. Nobis ea hic
-              reprehenderit, rerum ipsa, omnis odio ad, exercitationem vitae
-              optio qui a!
+            <p className="text-lg font-normal leading-tight text-gray-800 mb-5">
+              in my skills set you can find what im capable to use. Im not
+              afraid to learn new technologies. because to me learn then, is the
+              key to open new door.
+            </p>
+            <p className="text-lg font-normal leading-tight text-gray-800 mb-5">
+              Im also an english-spanish speaker, feel free to contact me.
             </p>
           </div>
         </div>
