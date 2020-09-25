@@ -21,7 +21,7 @@ const cardData = [
     tags: ["React", "NodeJs", "MongoDB"],
   },
   {
-    title: "Persona site",
+    title: "Personal site",
     content:
       "my personal site made with gatsby, which allows me to create static sites and powerful pwa",
     img: "https://i.redd.it/tk46u5nrkxm21.png",
@@ -46,6 +46,7 @@ export const Work: FC = () => {
           {cardData.map(({ content, img, link, title, tags }) => {
             return (
               <Card
+                key={title}
                 content={content}
                 title={title}
                 img={img}

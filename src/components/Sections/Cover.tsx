@@ -10,8 +10,8 @@ export const Cover: FC = () => {
     <header id="home" className="h-screen w-full flex flex-col justify-between">
       <nav className="h-64 w-full">
         <ol className="list-none flex w-full justify-center xl:justify-end p-2">
-          <ListItem title="work" />
-          <ListItem title="about me" id="about" />
+          {/* <ListItem title="work" /> */}
+          {/* <ListItem title="about me" id="about" /> */}
         </ol>
       </nav>
 
@@ -28,7 +28,7 @@ export const Cover: FC = () => {
         </h2>
       </div>
       <div className="h-64 w-full flex items-end justify-center pb-12">
-        <a href="#work">
+        <a href="#about">
           <img
             className="h-12 w-12 animate-bounce"
             src={ScrollDown}

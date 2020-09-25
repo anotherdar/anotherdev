@@ -9,7 +9,7 @@ export const ContactItem: FC<ContactItemProps> = ({ data }) => {
     <Fragment>
       {data.map(x => {
         return (
-          <li className="p-2 flex items-center cursor-pointer">
+          <li key={x.icon} className="p-2 flex items-center cursor-pointer">
             <a
               href={
                 x.link === "darenarosario@gmail.com"

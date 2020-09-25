@@ -12,10 +12,7 @@ export const Card: FC<CardProps> = props => {
   const { title, img, content, link, hash_tag } = props
 
   return (
-    <div
-      className="card-body main-color-border p-2 bg-white md:w-1/2 xl:w-1/3 shadow-xl"
-      key={img + title}
-    >
+    <div className="card-body main-color-border p-2 bg-white md:w-1/2 xl:w-1/3 shadow-xl rounded-md">
       <img
         src={img}
         alt="card-image"
