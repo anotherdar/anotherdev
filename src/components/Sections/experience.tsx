@@ -37,12 +37,11 @@ export const Experience: React.FC = () => {
     return (
         <section
             id="about"
+            className="relative"
         >
-            <div
-                className="h-56 xl:h-64 clip-up cover-color p-4 w-full"
-            />
-            <div className="flex flex-col xl:px-40 px-5">
-               <Title title="Experience" isBlue />
+            <div className="flex flex-col xl:px-40 px-5 items-center">
+                <h1 className="text-2xl main-color-txt font-medium sm:mt-5">Experience</h1>
+
                 <div className="container">
                     {
                         experiences.map(el => {
@@ -50,6 +49,7 @@ export const Experience: React.FC = () => {
                         })
                     }
                 </div>
+                
             </div>
         </section>
     )

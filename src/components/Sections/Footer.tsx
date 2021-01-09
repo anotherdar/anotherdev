@@ -1,8 +1,6 @@
 import React, { FC } from "react"
 
 // @ts-ignore
-import Email from "../../images/social media/email.svg"
-// @ts-ignore
 import In from "../../images/social media/linkedin.svg"
 // @ts-ignore
 import Twitter from "../../images/social media/twitter.svg"
