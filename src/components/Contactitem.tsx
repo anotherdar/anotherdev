@@ -11,11 +11,7 @@ export const ContactItem: FC<ContactItemProps> = ({ data }) => {
         return (
           <li key={x.icon} className="p-2 flex items-center cursor-pointer">
             <a
-              href={
-                x.link === "darenarosario@gmail.com"
-                  ? `mailto:${x.link}`
-                  : x.link
-              }
+              href={ x.link }
               target='_blank'
             >
               {x.icon === "icon-github" ? (

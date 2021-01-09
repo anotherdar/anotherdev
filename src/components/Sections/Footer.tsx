@@ -10,10 +10,6 @@ import Twitter from "../../images/social media/twitter.svg"
 import { ContactItem } from "../Contactitem"
 const data = [
   {
-    icon: Email,
-    link: "darenarosario@gmail.com",
-  },
-  {
     icon: In,
     link: "https://www.linkedin.com/in/daren-rosario-b0a163194/",
   },
