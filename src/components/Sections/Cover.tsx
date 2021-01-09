@@ -8,10 +8,12 @@ import { ListItem } from "../ListItem"
 export const Cover: FC = () => {
   return (
     <header id="home" className="h-screen w-full flex flex-col justify-between">
-      <nav className="h-64 w-full">
-        <ol className="list-none flex w-full justify-center xl:justify-end p-2">
-          {/* <ListItem title="work" /> */}
-          {/* <ListItem title="about me" id="about" /> */}
+      <nav className="h-64 w-ful">
+        <ol className="list-none flex w-full justify-center  p-2">
+          <ListItem title="work" />
+          <ListItem title="about me" id="about" />
+          <ListItem title="skills" id="skills" />
+          <ListItem title="experience" id="experience" />
         </ol>
       </nav>
 

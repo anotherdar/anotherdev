@@ -36,7 +36,7 @@ const experiences: Array<ExperienceData> = [
 export const Experience: React.FC = () => {
     return (
         <section
-            id="about"
+            id="experience"
             className="relative"
         >
             <div className="flex flex-col xl:px-40 px-5 items-center">
