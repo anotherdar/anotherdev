@@ -58,7 +58,7 @@ const IndexPage = () => {
     >
       {isVisible && <ButtonUp action={toGoUp()} />}
       <Cover />
-      <Work />
+      {/* <Work /> */}
       <About />
       <Skills />
       <Experience />
