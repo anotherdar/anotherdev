@@ -16,6 +16,7 @@ export const ContactItem: FC<ContactItemProps> = ({ data }) => {
                   ? `mailto:${x.link}`
                   : x.link
               }
+              target='_blank'
             >
               {x.icon === "icon-github" ? (
                 <i className={x.icon}></i>

@@ -28,8 +28,8 @@ export const About: FC = () => {
           </div>
           <div className="text-center md:text-left">
             <p className="text-lg font-normal leading-tight text-gray-800 mb-5">
-              Im a passionate web developer, how loves code and learn new
-              things. Im able to work as a frontend and backend. Im always
+              Im a passionate web developer, who loves code and learn new
+              things. Im able to work as a frontend or backend. Im always
               seeking to improve myself trying to keep up with the new
               technologies out there.
             </p>

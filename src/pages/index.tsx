@@ -8,6 +8,7 @@ import { Skills } from "../components/Sections/Skills"
 import { Footer } from "../components/Sections/Footer"
 
 import { ButtonUp } from "../components/ButtonUp"
+import { Experience } from "../components/Sections/experience"
 
 const IndexPage = () => {
   const ref = useRef<HTMLDivElement>(null)
@@ -60,6 +61,7 @@ const IndexPage = () => {
       {/* <Work /> */}
       <About />
       <Skills />
+      <Experience />
       <Footer />
     </div>
   )
