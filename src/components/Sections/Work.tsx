@@ -40,8 +40,10 @@ export const Work: FC = () => {
         className="h-56 xl:h-64 w-full clip-down cover-color p-4 absolute bottom-0"
         style={{ zIndex: -1 }}
       />
-      <div className=" w-11/12">
-        <Title title="Work" isBlue />
+      <div className=" w-11/12 text-center">
+        {/* <Title title="Work" isBlue /> */}
+        <h1 className="text-2xl main-color-txt font-medium">Work</h1>
+
         <div className="w-full flex flex-col md:flex-row md:flex-wrap md:justify-between md:items-center xl:mt-10 mt-5 ">
           {cardData.map(({ content, img, link, title, tags }) => {
             return (

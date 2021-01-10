@@ -9,7 +9,7 @@ import { ContactItem } from "../Contactitem"
 const data = [
   {
     icon: In,
-    link: "https://www.linkedin.com/in/daren-rosario-b0a163194/",
+    link: "https://www.linkedin.com/in/daren-a-rosario-b0a163194",
   },
   {
     icon: Twitter,
