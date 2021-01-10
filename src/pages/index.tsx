@@ -10,6 +10,8 @@ import { Footer } from "../components/Sections/Footer"
 import { ButtonUp } from "../components/ButtonUp"
 import { Experience } from "../components/Sections/experience"
 
+import '../components/scroll.scss'
+
 const IndexPage = () => {
   const ref = useRef<HTMLDivElement>(null)
   const [isVisible, setIsVisible] = useState(false)
@@ -52,16 +54,16 @@ const IndexPage = () => {
 
   return (
     <div
-      className="h-screen w-full xl:max-w-full onscroll"
+      className="h-screen w-full xl:max-w-full scroll px-10 py-5"
       onScroll={getScroll()}
       ref={ref}
     >
       {isVisible && <ButtonUp action={toGoUp()} />}
       <Cover />
-      <Experience />
-      <Work />
+      {/* <Work /> */}
       <About />
       <Skills />
+      <Experience />
       <Footer />
     </div>
   )

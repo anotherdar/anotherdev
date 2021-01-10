@@ -10,10 +10,10 @@ export const Cover: FC = () => {
     <header id="home" className="h-screen w-full flex flex-col justify-between">
       <nav className="h-64 w-ful">
         <ol className="list-none flex w-full justify-center  p-2">
-          <ListItem title="experience" id="experience" />
-          <ListItem title="work" id="work"/>
+          {/* <ListItem title="work" id="work"/> */}
           <ListItem title="about me" id="about" />
           <ListItem title="skills" id="skills" />
+          <ListItem title="experience" id="experience" />
         </ol>
       </nav>
 

@@ -12,7 +12,7 @@ export const ButtonUp: FC<ButtonUpProperties> = ({ action }) => {
     <button
       onClick={action}
       style={{ zIndex: 10 }}
-      className="p-3 rounded-full main-color-bg border-none fixed bottom-0 right-0 m-4 shadow-lg"
+      className="p-3 rounded-full bg-white border-none fixed bottom-0 right-0 m-4 shadow-xl outline-none"
     >
       <img src={Up} alt="" />
     </button>

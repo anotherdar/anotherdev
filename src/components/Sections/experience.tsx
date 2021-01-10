@@ -14,15 +14,6 @@ export type ExperienceData = {
 
 const experiences: Array<ExperienceData> = [
     {
-        url: '',
-        companyName: 'oshinstar',
-        shortName: 'oshinstar',
-        startTime: 'nov 2019',
-        endTime: 'apr 2020',
-        duration: '6 months',
-        description: 'working as front end dev, building rich ui with React TypeScript'
-    },
-    {
         companyName: 'UNPHU - National University Pedro Henriquez Ureña',
         shortName: 'UNPHU',
         startTime: 'dec 2021',
@@ -30,6 +21,15 @@ const experiences: Array<ExperienceData> = [
         duration: '1 months',
         description: 'working as React typeScript developer, building apps with a modern look',
         url: 'https://www.unphu.edu.do'
+    },
+    {
+        url: '',
+        companyName: 'oshinstar',
+        shortName: 'oshinstar',
+        startTime: 'nov 2019',
+        endTime: 'apr 2020',
+        duration: '6 months',
+        description: 'working as front end dev, building rich ui with React TypeScript'
     }
 ]
 

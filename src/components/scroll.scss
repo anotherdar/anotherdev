@@ -1,0 +1,33 @@
+@mixin scrollbar($size, $foreground-color, $background-color: mix($foreground-color, white, 50%)) {
+    
+    // For Google Chrome
+    &::-webkit-scrollbar {
+        width: $size;
+        height: $size;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $foreground-color;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $background-color;
+    }
+
+    // For Internet Explorer
+    & {
+        scrollbar-face-color: $foreground-color;
+        scrollbar-track-color: $background-color;
+    }
+}
+
+@mixin ScrollOrientation($X, $Y) {
+    overflow-x: $X;
+    overflow-y: $Y;
+}
+
+.scroll {
+    scroll-behavior: smooth;
+    @include scrollbar(4px, var(--main-color), #ddd);
+    @include ScrollOrientation(hidden, auto)
+}
